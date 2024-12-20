@@ -1,0 +1,102 @@
+.Slider{
+    position: relative;
+    width: 1440px;
+    height: 821px;
+    top: -23px;
+}
+.bitmap{
+    position: absolute;
+    width: 1440px;
+    height: 821px;
+    top: -23px;  
+    left: 0px;
+    z-index: -1;
+}
+.bigtext{
+    position: relative;
+    width: 42.75%;
+    height: 412px;
+    margin-top: 121px;
+    margin-left: 166px;
+    z-index: 1;
+}
+.firstT{
+    width: 100px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.secondT{
+    width: 616px;
+    height: 222px;
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.thirdT{
+    width: 581px;
+    height: 55px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.foursT{
+    width: 114px;
+    height: 24px;
+    margin-top: 43px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.4px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+}
+.foursT:hover{
+    color: #FFD723;;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1439px) {
+    .Slider{width: 1024px;}
+    .bitmap{width: 1024px;}
+}
+
+@media (max-width: 1023px) {
+    .Slider{width: 768px;}
+    .bitmap{
+        position: absolute;
+        width: 768px;
+        height: 584px;
+        top: -23px;  
+        left: 0px;
+        z-index: -1;
+    }
+    .secondT{
+        width: 500px;
+        height: 150px;
+        margin-top: 22px;
+        font-weight: 600;
+        font-size: 40px;
+        /* line-height: 72px; */
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+    }
+    .bigtext{
+        position: relative;
+        width: 42.75%;
+        height: 390px;
+        margin-top: 121px;
+        margin-left: 166px;
+        z-index: 1;
+    }
+}

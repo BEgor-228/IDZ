@@ -1,0 +1,165 @@
+.Services{
+    position: absolute;
+    width: 1109px;
+    height: 644px;
+    margin-top: 0px;
+    margin-left: 165px;
+    background-color: white;
+    z-index: 1;
+}
+.Servtext1{
+    width: 475px;
+    height: 366px;
+    margin-top: 230px;
+}
+.ST1{
+    width: 136px;
+    height: 21px;
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: #4D533CE5;
+}
+.ST2{
+    width: 475px;
+    height: 138px;
+    font-size: 36px; 
+    margin-top: 29px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: 'Poppins', sans-serif;
+    color: #4D533C;
+}
+.ST3{
+    width: 475px;
+    height: 78px;
+    font-size: 16px; 
+    margin-top: 35px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    color: #21384299;
+}
+.ST4{
+    width: 181px;
+    height: 24px;
+    font-size: 16px; 
+    margin-top: 35px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+}
+.yellowrect{
+    position: absolute;
+    width: 240px;
+    height: 47px;
+    margin-top: -266px;
+    margin-left: 162px;
+    background-color: #FFD7231A;
+    z-index: 0.1;
+}
+.Servtext2{
+    width: 474px;
+    height: 644px;
+    margin-top: -595px;
+    margin-left: 635px;
+    box-shadow: 0px 100px 100px 0px #00000025;
+    background-color: #FFFFFF;
+}
+.BWRtext{
+    position: absolute;
+    width: 426px;
+    height: 340px;
+    margin-top: 230px;
+    margin-left: 40px;
+}
+.quote{
+    width: 426px;
+    height: 200px;
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.author{
+    width: 358px;
+    height: 90px;
+    margin-top: 55px;
+}
+.authorphoto {
+    width: 90px;   
+    height: 90px;
+    background-image: url("/imj/autr.png"); 
+    /* не работает вставка фотографии */
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%;
+    box-shadow: 20px 25px 43px 0px #0000002E;
+}
+.name{
+    width: 238px;
+    height: 62px;
+    margin-left: 120px;
+    margin-top: -76px;
+}
+.name1{
+    width: 238px;
+    height: 33px;
+    font-size: 22px; 
+    font-weight: 700;
+    line-height: 33px;
+    font-family: 'Poppins', sans-serif;
+    color: #4D533C;
+}
+.name2{
+    width: 197px;
+    height: 24px;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #152934;
+}
+.ST4:hover{
+    color: #FFD723;;
+    cursor: pointer;
+}
+
+@media (max-width: 1439px) {
+    .Services{
+        width: 1000px;
+        height: 450px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .Servtext1{
+        width: 475px;
+        height: 366px;
+        margin-top: 30px;
+    }
+    .Servtext2{
+        height: 400px;
+        margin-top: -390px;
+        margin-left: 490px;
+    }
+    .quote{margin-top: -200px;}
+}
+@media (max-width: 1023px) {
+    .Services{width: 758px;}
+    .Servtext1{width: 384px;}
+    .Servtext2{width: 374px;margin-left: 380px;}
+    .ST2{width: 380px;font-size: 26px; }
+    .ST3{
+        width: 380px;
+        height: 78px;
+        font-size: 16px; 
+        margin-top: 15px;
+    }
+    .quote{width: 330px;}
+    .author{width: 330px;}
+    .name1{font-size: 18px; }
+    .BWRtext{margin-left: -60px;}
+}

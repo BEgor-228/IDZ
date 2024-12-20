@@ -1,0 +1,29 @@
+.client{
+    position: absolute;
+    width: 1276px;
+    height: 227px;
+    margin-top: -147px;
+    border-radius: 2px;
+    margin-left: 165px;
+    background-color: #FFFFFF;
+    box-shadow: 50px 50px 100px 0px #00000025;
+    z-index: 2;
+}
+.icongroups{
+    display: flex;
+    justify-content: space-between;
+    width: 1045px;
+    height: 113px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+.pictures{
+    width: 156px;
+    height: 113px;
+}
+@media (max-width: 1439px) {
+    .client{
+        display: none;
+    }
+
+}

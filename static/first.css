@@ -1,0 +1,121 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 5960px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 77.1%;
+    height: 43px;
+    margin-top: 46px;
+    margin-left: 164px;
+}
+.logo{
+    width: 256px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.rectangles{
+    position: relative;
+    width: 55px;
+    height: 35px;
+    margin-top: 4.27px;
+}
+
+.lownav{
+    width: 40px;
+    height: 40px;
+    margin-top: -24px;
+}
+.oval{
+    width: 40px;
+    height: 40px;
+    color: #F5F6F7;
+}
+.iconsmenu{
+    width: 18px;
+    height: 12.6px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.stripe {
+    position: absolute; 
+    width: 18px; 
+    height: 2px; 
+    background-color: black; 
+    transform: translateX(-50%); 
+}
+.stripe1 {
+    margin-top: 27px; 
+    margin-left: 9px;
+}
+.stripe2 {
+    margin-top: 32.4px; 
+    margin-left: 9px;
+}
+.stripe3 {
+    margin-top: 37.8px; 
+    margin-left: 9px;
+}
+
+
+
+.Rectangle{
+    position: absolute;
+    width: 29.21px;
+    height: 24.35px;
+    margin-top: 0px;
+    margin-left: 12.78px;
+    color: #F6F6F6;
+    z-index: 3;
+}
+.TRCopy{
+    position: absolute;
+    width: 42px;
+    height: 35px;
+    margin-left: 0px;
+    transform: rotate(0deg);
+    color: #FFFFFF;
+    z-index: 2;
+}
+.Triangle{
+    position: absolute;
+    width: 42px;
+    height: 35px;
+    margin-top: 0px;
+    margin-left: 13.78px;
+    color: #FFD723;
+    z-index: 1;
+}
+.text{
+    width: 191px;
+    height: 34px;
+    margin-left: 66.2px;
+    margin-top: -34px;
+}
+.text:hover, .oval:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1439px) {
+    .Slider{
+        position: relative;
+        width: 1024px;
+        height: 584px;
+        top: -23px;
+    }
+    html{ width: 1023px;}
+}
+@media (max-width: 1024px) {
+    .Slider{ width: 768px;}
+    html{ width: 768px;}
+
+}
